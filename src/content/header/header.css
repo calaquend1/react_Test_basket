@@ -1,0 +1,209 @@
+body {
+	color: black;
+	font: 12px Tahoma, sans-serif;
+	background-color: #f8f8f8;
+    margin: 0;
+    height: 100%;
+}
+input[type="text"] {
+	background-color: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	height: 30px;
+	color: #b2b2b2;
+	padding: 0 10px;
+	vertical-align: top;
+}
+button {
+	color: #fff;
+	background-color: #29c5e6;
+	border: none;
+	height: 32px;
+	font-family: 'Oswald', sans-serif;
+}
+p {
+	margin: 20px 0;
+}
+.wrapper {
+    width: 100%;
+	margin: auto;
+}
+
+.header .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 49px;
+    height: 49px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(243,243,243,0);
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.header .fa-youtube {
+    padding:0px;
+    color:red;
+    font-size: 15px;
+    border: 0px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(243,243,243,0);
+}
+
+
+.header .fa-youtube-play{
+    padding:0px;
+    color:red;
+    font-size: 15px;
+    border: 0px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(243,243,243,0);
+}
+
+
+.header {
+    margin:auto;
+    background-color: #e4e4e4;
+}
+.header_content {
+    margin:auto;
+    max-width:1024px;
+    white-space:pre;
+    background-color: white;
+    display:flex;
+    flex-direction: row; 
+    align-items:center;
+}
+.first{
+    background-color: #e4e4e4;
+}
+.header1 {
+    height:26px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header .fa-star-o {
+    padding:0px;
+    color:goldenrod;
+    font-size: 15px;
+    border: 0px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(243,243,243,0);
+}
+
+.header_second{
+    margin:auto;
+    background-color: white;
+}
+.second{
+    height:45px;
+    margin:auto;
+    background-color: white;
+}
+
+.header_third,.third{
+    margin:auto;
+    background-color: gray; 
+}
+
+.header_fourth,.fourth{
+    margin:auto;
+    background-color: whitesmoke;
+}
+.header2{
+    height:24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: url(https://www.shop24.com/new/img/SL/header-logo.svg) no-repeat;
+    background-size: 100px;
+    width: 100px;
+}
+.wrapper .fa-search,.wrapper .fa-user,.wrapper .fa-shopping-bag {
+    padding: 0px;
+    color: black;
+    font-size: 15px;
+    border: 0px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(243,243,243,0);
+}
+.left{
+    margin-left: 10px;
+}
+.bag{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.header1 p{
+    padding-right:20px;
+}
+.header1 pre{
+    display:none;
+}
+@media screen and (min-width: 1px) and (max-width: 750px) {
+    .header p{
+        display:none;
+    }
+    .header .header_content{
+        justify-content:space-evenly;
+    }
+  }
+@media screen and (min-width: 751px) and (max-width: 910px) {
+    .header .header_content{
+        justify-content: start;
+    }
+  }
+@media screen and (min-width: 911px) and (max-width: 1230px) {
+    .header .header_content{
+        justify-content: space-evenly;
+    }
+  }
+@media screen and (max-width: 520px) {
+    .header1 p{
+        padding-right: 0px;
+        
+    }
+  }
+@media screen and (max-width: 505px) {
+    .header1 p{
+        display:none;
+    }
+    .header1 pre{
+        display:block;
+    }
+  }
+@media screen and (max-width: 380px) {
+    .header_content.second .header1{
+        flex-direction:column;
+        height:70px;
+    }
+    .header_content.second .header2{
+        height:40px;
+    }
+    .header_content.second{
+        height: 80px;
+    }
+    .header_second{
+        height:80px;
+    }
+  }

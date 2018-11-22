@@ -1,0 +1,94 @@
+body {
+	color: black;
+	font: 12px Tahoma, sans-serif;
+	background-color: #f8f8f8;
+    margin: 0;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+	margin: auto;
+}
+
+.header {
+    margin:auto;
+    background-color: #e4e4e4;
+}
+.header_content {
+    margin:auto;
+    max-width:1024px;
+    white-space:pre;
+    background-color: white;
+    display:flex;
+    flex-direction: row; 
+    align-items:center;
+    justify-content:space-between;
+}
+.first{
+    background-color: #e4e4e4;
+}
+.header1 {
+    height:26px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.header_third,.third{
+    margin:auto;
+    background-color: rgb(206, 198, 198); 
+}
+
+.header_fourth,.fourth{
+    margin:auto;
+    background-color: whitesmoke;
+}
+.header_fourth{
+    border-bottom:1px solid gray;
+}
+.header2{
+    height:24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: url(https://www.shop24.com/new/img/SL/header-logo.svg) no-repeat;
+    background-size: 100px;
+    width: 100px;
+}
+
+.left{
+    margin-left: 10px;
+}
+.bag{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: rgb(12, 8, 8);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    border-bottom: 3px solid orange;
+    color: white;
+}
+.hidden {
+    display:none;
+}
